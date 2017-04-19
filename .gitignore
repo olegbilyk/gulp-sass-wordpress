@@ -16,3 +16,13 @@ wp-content/plugins/hello.php
 /sitemap.xml
 /sitemap.xml.gz
 
+# IntellijIdea files
+*.iml
+.idea
+
+# Node Modules files
+node_modules
+
+# Orders files
+npm-debug.log
+*.map

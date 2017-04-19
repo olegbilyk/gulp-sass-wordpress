@@ -1,0 +1,34 @@
+{
+  "name": "gulp-sass-wordpress",
+  "version": "1.0.0",
+  "description": "Gulp compile SASS in WordPress",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp --type=dev watch",
+    "start_prod": "gulp--type=prod watch",
+    "build": "gulp --type=dev sass",
+    "build_prod": "gulp --type=prod sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olegbilyk/gulp-sass-wordpress.git"
+  },
+  "keywords": [],
+  "author": "Oleg Bilyk",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/olegbilyk/gulp-sass-wordpress/issues"
+  },
+  "homepage": "https://github.com/olegbilyk/gulp-sass-wordpress#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-if": "^2.0.2",
+    "gulp-notify": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-util": "^3.0.8"
+  }
+}
