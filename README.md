@@ -1,6 +1,17 @@
 # gulp-sass-wordpress
 Gulp compile SASS in WordPress
 
+### What's included?
+- [Gulp](https://github.com/gulpjs/gulp)
+- [Gulp sass](https://github.com/dlmanning/gulp-sass)
+- [gulp sourcemaps](https://github.com/gulp-sourcemaps/gulp-sourcemaps)
+- [Gulp autoprefixer](https://github.com/sindresorhus/gulp-autoprefixer)
+- [gulp-rename](https://github.com/hparra/gulp-rename)
+- [gulp-notify](https://github.com/mikaelbr/gulp-notify)
+- [gulp-if](https://github.com/robrich/gulp-if)
+- [gulp-util](https://github.com/gulpjs/gulp-util)
+- [BrowserSync](https://github.com/BrowserSync/browser-sync)
+
 ## Installation
 
 ```
