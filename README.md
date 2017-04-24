@@ -65,4 +65,3 @@ $ npm run build_prod
 # License
 
 [MIT](License.md)
-[License](https://github.com/olegbilyk/webpack2-js-boilerplate/blob/develop/LICENSE)
