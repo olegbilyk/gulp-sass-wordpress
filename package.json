@@ -4,10 +4,10 @@
   "description": "Gulp compile SASS in WordPress",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "gulp --type=dev watch",
-    "start_prod": "gulp--type=prod watch",
-    "build": "gulp --type=dev sass",
-    "build_prod": "gulp --type=prod sass"
+    "start": "node ./node_modules/gulp/bin/gulp.js watch",
+    "start_prod": "node ./node_modules/gulp/bin/gulp.js --type=prod watch",
+    "build": "node ./node_modules/gulp/bin/gulp.js sass",
+    "build_prod": "node ./node_modules/gulp/bin/gulp.js --type=prod sass"
   },
   "repository": {
     "type": "git",
