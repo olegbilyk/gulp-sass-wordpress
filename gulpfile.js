@@ -1,3 +1,8 @@
+/*!
+ * @name        Gulp Sass Wordpress Configuration
+ * @author      Oleg Bilyk <https://www.linkedin.com/in/oleg-bilyk-3a6817b5/>
+ * @version     1.0.0
+ *
 'use strict';
 
 // Require plugins
