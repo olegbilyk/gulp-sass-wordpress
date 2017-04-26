@@ -3,6 +3,7 @@
  * @author      Oleg Bilyk <https://www.linkedin.com/in/oleg-bilyk-3a6817b5/>
  * @version     1.0.0
  *
+ */
 'use strict';
 
 // Require plugins
@@ -64,6 +65,6 @@ gulp.task('browser-sync', function () {
 });
 
 // Watch task
-gulp.task('watch', ['sass', 'browser-sync'], function () {
+gulp.task('watch', _if(isBrowserSync, ['sass', 'browser-sync'], ['sass']), function () {
   gulp.watch('wp-content/themes/' + themeName + '/assets/sass/**', ['sass']);
 });
